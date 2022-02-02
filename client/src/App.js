@@ -37,7 +37,7 @@ function App () {
         }}
       >
         <Routes>
-          <Route exact path='/newreactportfolio' element={<AboutPage />} />
+          <Route path='/newreactportfolio' element={<AboutPage />} />
           {/* <Route exact path='/about' element={<AboutPage />} /> */}
           <Route exact path='/contact' element={<ContactPage />} />
         </Routes>
