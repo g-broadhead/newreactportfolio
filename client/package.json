@@ -1,6 +1,7 @@
 {
-  "name": "reactportfolio",
+  "name": "newreactportfolio",
   "version": "0.1.0",
+  "homepage": "https://g-broadhead.github.io/newreactportfolio/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
@@ -21,7 +22,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -b gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

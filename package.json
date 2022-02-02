@@ -1,7 +1,5 @@
 {
   "main": "npm start",
-  "homepage": "https://g-broadhead.github.io/reactportfolio",
-  "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
@@ -26,11 +24,10 @@
     "start:prod": "start server.js",
     "client": "cd client && npm run start",
     "install": "cd client && npm install",
-    "build": "cd client && npm run build",
+    "build": "cd client && npm build",
     "deploy": "gh-pages -b gh-pages -d build"
   },
   "devDependencies": {
-    "concurrently": "^7.0.0",
     "if-env": "^1.0.4",
     "nodemon": "^2.0.15",
     "web-vitals": "^2.1.4"
