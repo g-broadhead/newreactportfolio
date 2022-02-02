@@ -1,4 +1,4 @@
-import AboutPage from '././components/Pages/AboutPage/AboutPage.js';
+import AboutPage from './components/Pages/AboutPage/AboutPage.js';
 import ContactPage from './components/Pages/ContactPage/ContactPage';
 import CodeCat from './Assets/images/code_cat_hq.mp4';
 import './App.css';
@@ -37,7 +37,7 @@ function App () {
         }}
       >
         <Routes>
-          <Route path='/newreactportfolio' element={<AboutPage />} />
+          <Route exact path='/newreactportfolio' element={<AboutPage />} />
           {/* <Route exact path='/about' element={<AboutPage />} /> */}
           <Route exact path='/contact' element={<ContactPage />} />
         </Routes>
