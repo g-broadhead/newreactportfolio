@@ -13,6 +13,7 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
+import Link from '@mui/material/Link';
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
@@ -27,8 +28,6 @@ const Projects = () => {
       <Container
       sx={{ flexGrow: 1, mt: '15px', mb:'10px' }}
       display="flex"
-      // alignItems="center"
-      // justifyContent='center'
       >
         <Grid container spacing={5}>
           <Grid item xs={11}>
@@ -37,8 +36,6 @@ const Projects = () => {
           <Box
           m={1}
           display="flex"
-          // alignItems="center"
-          // justify='center'
           flexDirection='row'
           >
             <Card sx={{ maxWidth: 345, mt: '10px', mr: '10px' }}>
@@ -57,7 +54,7 @@ const Projects = () => {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Share</Button>
+                <Link href="https://g-broadhead.github.io/project-ghoat/">Go To</Link>
               </CardActions>
             </Card>
             <Card sx={{ maxWidth: 345, mt: '10px', mr:'10px' }}>
@@ -76,7 +73,7 @@ const Projects = () => {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Share</Button>
+                <Link href="https://chat-wallet.herokuapp.com/">Go To</Link>
               </CardActions>
             </Card>
             <Card sx={{ maxWidth: 345, mt: '10px', mr: '10px' }}>
@@ -95,7 +92,7 @@ const Projects = () => {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Share</Button>
+                <Link href="https://g-broadhead.github.io/passwordGen/">Go To</Link>
               </CardActions>
             </Card>
           </Box>
