@@ -1,4 +1,4 @@
-import AboutPage from './components/Pages/AboutPage/AboutPage.js';
+import AboutPage from './components/Pages/AboutPage/AboutPage';
 import ContactPage from './components/Pages/ContactPage/ContactPage';
 import CodeCat from './Assets/images/code_cat_hq.mp4';
 import './App.css';
@@ -8,7 +8,7 @@ import Container from '@mui/material/Container';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 
 // Components
-import { AppHeader } from './components/AppHeader'
+import AppHeader from './components/AppHeader'
 
 function App () {
   return (
@@ -37,8 +37,8 @@ function App () {
         }}
       >
         <Routes>
-          <Route exact path='/newreactportfolio' element={<AboutPage />} />
-          {/* <Route exact path='/about' element={<AboutPage />} /> */}
+          <Route exact path='/' element={<AboutPage />} />
+          <Route exact path='/about' element={<AboutPage />} />
           <Route exact path='/contact' element={<ContactPage />} />
         </Routes>
       </Container>

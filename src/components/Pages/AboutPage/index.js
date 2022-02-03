@@ -1,1 +1,1 @@
-export { default as AboutPage } from './AboutPage.js'
+export { default } from './AboutPage.js'

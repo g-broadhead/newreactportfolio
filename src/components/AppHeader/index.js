@@ -1,1 +1,1 @@
-export { default as AppHeader } from "./AppHeader.js"
+export { default } from "./AppHeader.js"

@@ -1,4 +1,4 @@
-import { Contact } from '../../Contact'
+import Contact from '../../Contact';
 import * as React from 'react';
 
 import Container from '@mui/material/Container';
